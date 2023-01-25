@@ -8,11 +8,8 @@ This project is a project I did as a freelancer. A new startup that today is cal
 
 Technologies: React.js, Javascript, CSS, Gsap (Greensock Animation Library).
 
-# ------------ IMPORTANT --------------- #
-
-The interface is written in Hebrew. I am sorry in advance if you can't understand it.
-
 # Notes #
 
+- The interface is written in Hebrew. I am sorry in advance if you can't understand it.
 - Commits history is not visible since the original repository is contained in a different repository.
 - Because their algorithms is private, I can only share the interface itself, so no server requests are made here.
