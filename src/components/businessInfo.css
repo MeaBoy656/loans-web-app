@@ -1,0 +1,20 @@
+.form-group-radio {
+  margin-bottom: 40px;
+}
+
+.radio-input-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100%;
+  margin-right: 10%;
+}
+
+.radio-input-wrapper > * {
+  margin-left: 40px;
+}
+.type-containe-business > * > * {
+  margin-left: 10px;
+  width: 100px;
+  height: 20px;
+}

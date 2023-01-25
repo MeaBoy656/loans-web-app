@@ -1,0 +1,62 @@
+.controls-container {
+  height: 100vh;
+  grid-area: contt;
+  right: -40px;
+  width: fit-content;
+  padding-block: 40px;
+  justify-self: end;
+  position: relative;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.nextBtn {
+  align-self: flex-end;
+  background-color: var(--blue);
+  background-image: url('../../arrow-white.svg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border: none;
+  width: 85px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transition:transform 150ms;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.submitBtn {
+  align-self: flex-end;
+  background-color: var(--blue);
+  background-image: url('../../createRequest.svg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border: none;
+  width: 85px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transition:transform 150ms;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.backBtn {
+  justify-self: center;
+  align-self: flex-start;
+  background-color: var(--cream);
+  background-image: url('../../arrow-blue.svg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border: 2px solid var(--blue);
+  width: 85px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transition:transform 150ms;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

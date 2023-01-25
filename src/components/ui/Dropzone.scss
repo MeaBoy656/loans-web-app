@@ -1,0 +1,20 @@
+.dropzone {
+  cursor: pointer;
+  border: 2px var(--blue) dashed;
+  height: 150px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+#upload-icon {
+  margin: auto;
+  width: 80px;
+  aspect-ratio: 1;
+  background-image: url("../uploadIcon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+}

@@ -1,0 +1,135 @@
+.grid-information--container {
+  height: 100vh;
+  overflow: auto;
+  grid-area: contt;
+  justify-self: center;
+  background-color: var(--cream);
+  overflow-x: hidden;
+  width: 100%;
+  display: grid;
+  align-items: start;
+  grid-template-columns: 25% auto 25%;
+  grid-template-rows: 100%;
+  grid-template-areas: "l bd r";
+}
+
+.form {
+  padding-top: 60px;
+  grid-area: bd;
+  display: grid;
+}
+
+
+.page-title {
+  font-weight: normal;
+  margin-right: -10%;
+  font-size: 32px;
+}
+
+.sub-title {
+   margin-right: -10%;
+  font-weight: normal;
+  font-size: 16px;
+  word-wrap: break-word;
+  width: 80%;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  width: 80%;
+  justify-self: center;
+  align-self: center;
+  display: grid;
+  grid-template-columns: 130px 2fr;
+  grid-template-rows: 33px;
+  grid-template-areas: "lbl inpt";
+}
+
+.inpt {
+  grid-area: lbl;
+  color: var(--dark);
+  margin-left: 30px;
+}
+input,
+.type,
+.form-check-input {
+  grid-area: inpt;
+}
+
+.form-control-option {
+  border: 1px solid var(--grey);
+  padding-inline: 10px;
+  &::placeholder {
+    color: var(--grey);
+  }
+  &:focus {
+    outline: var(--blue) solid 2px;
+    // background-color: var(--light-blue);
+    &::placeholder {
+      color: var(--dark-grey);
+    }
+  }
+}
+
+.form-group {
+  justify-self: center;
+  padding: 0;
+  margin-bottom: 23px;
+  height: fit-content;
+}
+
+input {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.type-container {
+  display: flex;
+}
+
+.type-container > * {
+  margin-left: 30px;
+}
+.type-container > * > * {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 1px;
+  background: var(--white);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: var(--blue);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04aa6d;
+  cursor: pointer;
+}

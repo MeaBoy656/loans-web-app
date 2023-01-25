@@ -1,0 +1,38 @@
+.finish-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#success-img {
+  margin: 50px;
+  background-image: url('successIcon.svg');
+  width: 200px;
+  aspect-ratio: 1;
+}
+
+.btns {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.page-title-finish {
+  font-weight: normal;
+}
+
+.button-secondary {
+	padding: 10px 60px;
+	background-color: transparent;
+	border: var(--blue) 2px solid;
+	border-radius: 5px;
+	color: var(--blue);
+	cursor: pointer;
+}
+
+.button-secondary:hover {
+	background-color: var(--transparent-blue)
+}
